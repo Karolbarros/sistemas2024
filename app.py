@@ -19,6 +19,7 @@ def mercados():
 def gastos(mes, valor):
     return render_template('gastos.html', mes = mes, valor = valor)
 
+@app.route('/dobro',defaults={'n':'1'})
 @app.route('/dobro/<float:n>')
 @app.route('/dobro/<int:n>')
 def dobro(n):
