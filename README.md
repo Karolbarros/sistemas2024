@@ -1,1 +1,6 @@
 # sistemas2024
+
+METODO GET = EXPRESSOS/VISIVEIS NA URL(PADRÃO) 
+[request.args]
+METODO POST= OCULTOS NO CABEÇALHO HTTP
+[request.form]
